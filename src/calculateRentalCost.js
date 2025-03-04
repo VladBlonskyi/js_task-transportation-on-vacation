@@ -20,17 +20,3 @@ function calculateRentalCost(days) {
 }
 
 module.exports = calculateRentalCost;
-
-/*
-
-Кожен день 40$
-7 або більше днів 50$ знижки на сумму
-на 3 або більше днів, ви отримаєте знижку $20 на загальну суму.
-
-Examples:
-
-calculateRentalCost(1); // 40
-calculateRentalCost(3); // 100
-calculateRentalCost(7); // 230
-
-*/
