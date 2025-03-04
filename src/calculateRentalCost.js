@@ -4,6 +4,7 @@
  * @return {number}
  */
 function calculateRentalCost(days) {
+  // write code here
   const pricePerDay = 40;
   const longTerm = 7;
   const longTermDiscount = 50;
